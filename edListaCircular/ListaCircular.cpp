@@ -110,7 +110,7 @@ void ListaCircular::borrar(int pos)
 				ante = ante->sig;
 				reco = reco->sig;
 			}
-			reco = reco->sig;
+			//reco = reco->sig;
 
 		} while (reco != inicio);
 
